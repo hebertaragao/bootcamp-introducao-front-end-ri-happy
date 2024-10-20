@@ -23,7 +23,8 @@
 }
 
 .pokemon .name {
-    color: #fff;
+    font-weight: bold;
+    color: #000;
     margin-bottom: .25rem;
 }
 
@@ -42,7 +43,8 @@
 
 .pokemon .detail .types .type {
     background-color: #61e1ca;
-    color: #fff;
+    font-weight: bold;
+    color: #000;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
