@@ -10,3 +10,6 @@ const playTune = (key) => {
     key.addEventListener("click", () => playTune(key.dataset.key));
     mapedKeys.push(key.dataset.key);
   });
+
+  document.addEventListener("keydown", (e) => {playTune(e.key); 
+});
